@@ -1,0 +1,16 @@
+{
+  "name": "zzuli-node-login",
+  "version": "1.0.0",
+  "description": "A Node.js script for simulating CAS single sign-on at ZZULI.",
+  "author": "Dogxi <hi@dogxi.me> (https://dogxi.me)",
+  "license": "MIT",
+  "scripts": {
+    "start": "node login.js"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "axios-cookiejar-support": "^6.0.2",
+    "qrcode-terminal": "^0.12.0",
+    "tough-cookie": "^5.1.2"
+  }
+}
